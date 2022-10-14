@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>分子藥局</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/slide.css">
+    <link rel="stylesheet" href="css/mainMenu.css">
+    <link rel="stylesheet" href="css/menu2.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="sidebar">
+            <a href="index.html"><img class="sidebarLogo" src="images/sidebar_logo.png" alt=""></a>
+            <a class="menubtn" href="#" onclick="openMainmenu()">
+                <div class="sidebarBurger">
+                    <div class="burgerLine"></div>
+                    <div class="burgerLine"></div>
+                    <div class="burgerLine"></div>
+                </div>
+                <div class="menuword"><span>Menu</span></div>
+            </a>
+        </div>
+        <div class="sidebar2">
+            <a href="index.html"><img class="sidebar2Logo" src="images/sidebar_logo.png" alt=""></a>
+            <div class="menu-bg"></div>
+            <div class="menu-burger">☰</div>
+            <div class="menu-items">
+                <nav>
+                <a href="index.html"><i class="fa-solid fa-arrow-right-long gogo"></i> 首頁</a>
+                <a href="product.html"><i class="fa-solid fa-arrow-right-long gogo"></i> 產品頁 01</a>
+                <a href="curesupport.html"><i class="fa-solid fa-arrow-right-long gogo"></i> 產品頁 02</a>
+                <a href="article.html"><i class="fa-solid fa-arrow-right-long gogo"></i> 文章</a>
+            </nav>
+            </div>
+        </div>
+    </header>
+
+    <div id="mainmenu">
+        <nav>
+            <a class="closeit" href="javascript:void(0)" onclick="closeMainmenu()"><i class="fa-solid fa-xmark closebtn"></i></a>    
+            <a href="index.html"><i class="fa-solid fa-arrow-right-long gogo"></i> 首頁</a>
+            <a href="product.html"><i class="fa-solid fa-arrow-right-long gogo"></i> 產品頁 01</a>
+            <a href="curesupport.html"><i class="fa-solid fa-arrow-right-long gogo"></i> 產品頁 02</a>
+            <a href="article.html"><i class="fa-solid fa-arrow-right-long gogo"></i> 文章</a>
+        </nav>
+        <div class="clear"></div>
+    </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-caret-up"></i> Go Top</button>
+
+    <main>
+        <div class="breadcrumbs">
+            <a href=""><span>分子選物 </span></a>/
+            <a href=""><span> 保養品 </span></a>/
+            <a href=""><span> L:A BRUKET</span></a>
+        </div>
+        <div class="product_sale">
+            <div class="product_sale_pic">
+                <img src="images/2-1.png" alt="">
+            </div>
+            <div class="product_sale_detail">
+                <h2 class="product_sale_title">069 CITRONGRÄS 450 ML</h2>
+                <div class="black_line"></div>
+                <div class="product_sale_content">
+                    <p>高度保濕液體手部沐浴露。來自檸檬草的有機精油具有活性和刺激性，使其特別適合油性皮膚。有機和/或天然成分。檸檬草油具有清潔，刺激和抑菌作用。</p>
+                    <div class="black_line2"></div>
+                    <h4 class="text1">成分</h4>
+                    <h4 class="text2">水，十二烷基磺基乙酸鈉，甘油，月桂酰肌氨酸鈉...<span class="moredetail">+</span><p class="text2">123456789</p></h4>
+                    <div class="black_line2"></div>
+                    <h3>PRICE:  NTD  <span>1099</span></h3>
+                    <div class="black_line2"></div>
+                    <div class="cartcount">
+                        <h4 class="text2 count_title">數量</h4>
+                        <ul class="counter">
+                            <li id="minus"><input type="button" onclick="minuser()" value="-"/></li>
+                            <li id="countnum">0</li>
+                            <li id="plus"><input type="button" onclick="adder()" value="+"/></li>
+                        </ul>
+                        <div class="countbtn">加入購物車</div>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="black_line3"></div>
+
+        <div class="product_about">
+            <div class="product_about_pic">
+                <img src="images/2-2.png" alt="">
+            </div>
+            <div class="product_about_detail">
+                <div class="linetop"></div>
+                <h3 class="smalltitle">How to use</h3>
+                <h4 class="bigdetail">
+                    <p>取適量於掌心或海綿，從頸部至腳指柔軟按摩，</p>
+                    <p>然後徹底洗淨</p>
+                </h4>
+                <p class="about_content">高度保濕液體手部沐浴露。來自檸檬草的有機精油具有活性和刺激性，使其特別適合油性皮膚。有機和/或天然成分。檸檬草油具有清潔，刺激和抑菌作用。</p>
+                <div class="black_line2"></div>
+                <h4 class="bbb">用量</h4>
+                <p class="about_content2">按個人需要，適量取用</p>
+                <div class="black_line2"></div>
+                <h4 class="bbb">質地</h4>
+                <p class="about_content2">低泡沫透明凝露</p>
+                <img class="about_icon1" src="images/2_icon1.png" alt="">
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="product_about2">
+            <div class="product_about_pic2">
+                <img src="images/2-3.png" alt="">
+                <br><br>
+                <img src="images/2-4.png" alt="">
+            </div>
+            <div class="product_about_detail2">
+                <div class="p_detail">
+                    <div class="linetop"></div>
+                    <h3 class="smalltitle">Description</h3>
+                    <h4 class="bigdetail">
+                        <p>全天然，無毒</p>
+                    </h4>
+                    <p class="about_content">在瑞典西海岸製造的天然和有機護膚品，其理念是我們不需要化學品來創新護膚品。從2008年開始，我們一直致力於開發保護和滋養皮膚和頭髮的天然配方，我們的理解是，如果我們的產品在無條件的條件下有效，它們的質量將超過任何情況和任何地方的要求。 
+                    </p>
+                    <p class="about_content2">我們富有遠見的產品開發工作以天然護膚品的完善知識為後盾。我們在配方的純度方面毫不妥協，因為為了保護和恢復你的皮膚，你必須只用它可以吸收和利用的天然分子來培養牠，以便更好地發揮作用。</p>
+                    <img class="about_icon1" src="images/2_icon2.png" alt="">
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="black_line4"></div>
+
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="product_slide_detail">
+                    <div class="p_detail2">
+                        <div class="linetop"></div>
+                        <h3 class="smalltitle">Accompany with</h3>
+                        <h4 class="bigdetail"><p>搭配推薦</p></h4>
+                    <p class="about_content">建議搭配手部及身體保養系列散發獨特芳香，有效保濕滋養，同時喚醒肌膚和各種身體感官。</p>
+                    </div>
+                </div>
+                <div class="slidepic">
+                    <img src="images/2-5.png" style="width:100%">
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="product_slide_detail">
+                    <div class="p_detail2">
+                        <div class="linetop"></div>
+                        <h3 class="smalltitle">Accompany with 2</h3>
+                        <h4 class="bigdetail"><p>搭配推薦</p></h4>
+                    <p class="about_content">建議搭配手部及身體保養系列散發獨特芳香，有效保濕滋養，同時喚醒肌膚和各種身體感官。</p>
+                    </div>
+                </div>
+                <div class="slidepic">
+                    <img src="images/2-5.png" style="width:100%">
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="product_slide_detail">
+                    <div class="p_detail2">
+                        <div class="linetop"></div>
+                        <h3 class="smalltitle">Accompany with 3</h3>
+                        <h4 class="bigdetail"><p>搭配推薦</p></h4>
+                    <p class="about_content">建議搭配手部及身體保養系列散發獨特芳香，有效保濕滋養，同時喚醒肌膚和各種身體感官。</p>
+                    </div>
+                </div>
+                <div class="slidepic">
+                    <img src="images/2-5.png" style="width:100%">
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="product_slide_detail">
+                    <div class="p_detail2">
+                        <div class="linetop"></div>
+                        <h3 class="smalltitle">Accompany with 4</h3>
+                        <h4 class="bigdetail"><p>搭配推薦</p></h4>
+                    <p class="about_content">建議搭配手部及身體保養系列散發獨特芳香，有效保濕滋養，同時喚醒肌膚和各種身體感官。</p>
+                    </div>
+                </div>
+                <div class="slidepic">
+                    <img src="images/2-5.png" style="width:100%">
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="mySlides fade">
+                <div class="product_slide_detail">
+                    <div class="p_detail2">
+                        <div class="linetop"></div>
+                        <h3 class="smalltitle">Accompany with 5</h3>
+                        <h4 class="bigdetail"><p>搭配推薦</p></h4>
+                    <p class="about_content">建議搭配手部及身體保養系列散發獨特芳香，有效保濕滋養，同時喚醒肌膚和各種身體感官。</p>
+                    </div>
+                </div>
+                <div class="slidepic">
+                    <img src="images/2-5.png" style="width:100%">
+                </div>
+                <div class="clear"></div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">❮ ❮</a>
+            <a class="next" onclick="plusSlides(1)">❯ ❯</a>
+        </div>
+        <div class="slide_change">
+            <span class="slide_changeline active" onclick="currentSlide(1)"></span><span class="slide_changeline" onclick="currentSlide(2)"></span><span class="slide_changeline" onclick="currentSlide(3)"></span><span class="slide_changeline" onclick="currentSlide(4)"></span><span class="slide_changeline" onclick="currentSlide(5)"></span> 
+        </div>
+        <div class="black_line5"></div>
+          
+
+        <footer>
+            <div class="all">
+                <ul class="tableOfContent">
+                    <li class="li_title">客戶服務</li>
+                    <li><a href="">常見問題</a></li>
+                    <li><a href="">送貨和退貨</a></li>
+                    <li><a href="">使用條款</a></li>
+                    <li><a href="">隱私權政策</a></li>
+                </ul>
+                <ul class="tableOfContent">
+                    <li class="li_title">關於我們</li>
+                    <li><a href="">分子故事</a></li>
+                    <li><a href="">媒體報導</a></li>
+                    <li><a href="">聯絡我們</a></li>
+                </ul>
+                <ul class="socialIcon">
+                    <li><a href=""><i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                    <li><a href=""><i class="fa-brands fa-line"></i> Line ID：xxxxxxxxx</a></li>
+                </ul>
+                <ul class="socialIcon email">
+                    <li><a href=""><i class="fa-regular fa-envelope"></i> info@molecure.com.tw</a></li>
+                    <li><a href=""><i class="fa-regular fa-envelope email2"></i> info@molecure.com.tw</a></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            
+        </footer>
+        <div class="statement"><span>© 2018 Molecure Pharmacy</span></div>
+    </main>
+    <script src="https://kit.fontawesome.com/e4788a2551.js" crossorigin="anonymous"></script>
+    <script src="js/all.js"></script>
+    <script src="js/menu.js"></script>
+    
+</body>
+</html>

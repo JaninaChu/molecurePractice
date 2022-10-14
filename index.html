@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>分子藥局</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/mainMenu.css">
+    <link rel="stylesheet" href="css/menu2.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="sidebar">
+            <a href="index.html"><img class="sidebarLogo" src="images/sidebar_logo.png" alt=""></a>
+            <a class="menubtn" href="#" onclick="openMainmenu()">
+                <div class="sidebarBurger">
+                    <div class="burgerLine"></div>
+                    <div class="burgerLine"></div>
+                    <div class="burgerLine"></div>
+                </div>
+                <div class="menuword"><span>Menu</span></div>
+            </a>
+        </div>
+        <div class="sidebar2">
+            <a href="index.html"><img class="sidebar2Logo" src="images/sidebar_logo.png" alt=""></a>
+            <div class="menu-bg"></div>
+            <div class="menu-burger">☰</div>
+            <div class="menu-items">
+                <nav>
+                <a href="index.html"><i class="fa-solid fa-arrow-right-long gogo"></i> 首頁</a>
+                <a href="product.html"><i class="fa-solid fa-arrow-right-long gogo"></i> 產品頁 01</a>
+                <a href="curesupport.html"><i class="fa-solid fa-arrow-right-long gogo"></i> 產品頁 02</a>
+                <a href="article.html"><i class="fa-solid fa-arrow-right-long gogo"></i> 文章</a>
+            </nav>
+            </div>
+        </div>
+    </header>
+
+    <div id="mainmenu">
+        <nav>
+            <a class="closeit" href="javascript:void(0)" onclick="closeMainmenu()"><i class="fa-solid fa-xmark closebtn"></i></a>    
+            <a href="index.html"><i class="fa-solid fa-arrow-right-long gogo"></i> 首頁</a>
+            <a href="product.html"><i class="fa-solid fa-arrow-right-long gogo"></i> 產品頁 01</a>
+            <a href="curesupport.html"><i class="fa-solid fa-arrow-right-long gogo"></i> 產品頁 02</a>
+            <a href="article.html"><i class="fa-solid fa-arrow-right-long gogo"></i> 文章</a>
+        </nav>
+    </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-caret-up"></i> Go Top</button>
+
+    <main>
+        <div>
+            <div class="home_bg"><img src="images/home_bg.png" alt=""></div>
+            <div class="home_text"><img src="images/home_text.png" alt=""></div>
+        </div>
+        <div class="home2">
+            <div class="home2_text">
+                <div class="home2_details">
+                    <h2>L:A BRUKET</h2>
+                    <div class="textLine"></div>
+                    <p>邂逅純粹的有機體驗</p>
+                    <span>Unfold a purely organic experience</span>
+                    <div class="pg2"><img src="images/pg2.png" alt=""></div>
+                </div>
+            </div>
+            <div class="home2_product">
+                <table class="productPic">
+                    <tr>
+                        <td><img class="" src="images/product1.png" alt=""></td>
+                        <td><img class="" src="images/product2.png" alt=""></td>
+                        <td><img class="" src="images/product3.png" alt=""></td>
+                    </tr>
+                    <tr>
+                        <td><img class="" src="images/product4.png" alt=""></td>
+                        <td><img class="" src="images/product5.png" alt=""></td>
+                        <td><img class="" src="images/product6.png" alt=""></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="home2_bg"></div>
+        </div>
+        <div class="home3">
+            <div class="home3_ad1">
+                <div class="home3_img">
+                    <img src="images/product2-1.png" alt="">
+                </div>
+                <div class="home3_text">
+                    <p>Cure Support</p>
+                    <div class="textLine2"></div>
+                    <p>來自荷蘭的保健名品</p>
+                </div>
+                <img class="home3_title" src="images/product_title.png" alt="">
+            </div>
+            <div class="home3_ad2">
+                <div class="home3_img2">
+                    <img src="images/product2-2.png" alt="">
+                </div>
+                <div class="home3_text2">
+                    <p>OMIYA</p>
+                    <div class="textLine2"></div>
+                    <p>換季不過敏</p>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="home4">
+            <img src="images/product2-3-2.png" alt="">
+            <div class="home4_text">
+                <div><span>名人訪談</span></div>
+                <img src="images/home4.png" alt="">
+                <div class="home4_details">
+                    <h4>居家植物的氣質分析</h4>
+                    <h5>Ms. Anna Lu</h5>
+                </div>
+            </div>
+        </div>
+        <div class="home5">
+            <div class="logoMore">
+                <img src="images/footer_logo.png" alt="">
+                <p class="home5_text1">讓健康成為你的生活風格</p>
+                <p class="home5_text2">"Healthy Style Living" </p>
+                <div class="home5_more"><a class="home5go" href="#">read more</a></div>
+            </div>
+            <div class="news">
+                <div class="news_details">
+                    <h3 class="home5_title1">報導</h3>
+                    <h3 class="home5_title2">行銷創新 健康美學活動拉近顧客關係</h3>
+                    <p>坐落於台中7期國家歌劇院旁的健康選物店「分子藥局」，結合美學與生活風格的經營型態、可以說是全台最潮的藥局，擄獲許多顧客的青睞，甚至吸引遊客遠從台南前來參觀、喝咖啡，成了國家歌劇院周邊打卡新景點，帶動「分子藥局」開幕半年以來，已吸引近千人成為會員...</p>
+                   
+                    <div class="news_more"><a href="#"><div class="textLine3"></div><span>more</span></a></div>
+                </div>
+                <img src="images/product2-4.png" alt="">
+            </div>
+        </div>
+        <footer>
+            <div class="all">
+                <ul class="tableOfContent">
+                    <li class="li_title">客戶服務</li>
+                    <li><a href="">常見問題</a></li>
+                    <li><a href="">送貨和退貨</a></li>
+                    <li><a href="">使用條款</a></li>
+                    <li><a href="">隱私權政策</a></li>
+                </ul>
+                <ul class="tableOfContent">
+                    <li class="li_title">關於我們</li>
+                    <li><a href="">分子故事</a></li>
+                    <li><a href="">媒體報導</a></li>
+                    <li><a href="">聯絡我們</a></li>
+                </ul>
+                <ul class="socialIcon">
+                    <li><a href=""><i class="fa-brands fa-facebook-f"></i> Facebook</a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                    <li><a href=""><i class="fa-brands fa-line"></i> Line ID：xxxxxxxxx</a></li>
+                </ul>
+                <ul class="socialIcon email">
+                    <li><a href=""><i class="fa-regular fa-envelope"></i> info@molecure.com.tw</a></li>
+                    <li><a href=""><i class="fa-regular fa-envelope email2"></i> info@molecure.com.tw</a></li>
+                </ul>
+                <div class="clear"></div>
+            </div>
+            
+        </footer>
+        <div class="statement"><span>© 2018 Molecure Pharmacy</span></div>
+    </main>
+
+    <script src="https://kit.fontawesome.com/e4788a2551.js" crossorigin="anonymous"></script>
+    <!-- <script src="js/all.js"></script> -->
+    <script src="js/menu.js"></script>
+    
+</body>
+</html>
